@@ -1,0 +1,28 @@
+[{
+    "title":"Project1",
+    "technologies":["Python", "HTML", "CSS"],
+    "frontend_skill":["Python", "HTML", "CSS","JS"],
+    "backend_skill":["Python"],
+    "database_skill":["MySQL"],
+    "infrastructure_skill":["AWS"],
+    "availablity":"Immadiate"
+},
+{
+    "title":"Project2",
+    "technologies":["Python", "HTML", "CSS"],
+    "frontend_skill":["Python", "HTML", "CSS","JS"],
+    "backend_skill":["Python"],
+    "database_skill":["MySQL"],
+    "infrastructure_skill":["AWS"],
+    "availablity":"Immadiate"
+},
+{
+    "title":"Project2",
+    "technologies":["Python", "HTML", "CSS"],
+    "frontend_skill":["Python", "HTML", "CSS","JS"],
+    "backend_skill":["Python"],
+    "database_skill":["MySQL"],
+    "infrastructure_skill":["AWS"],
+    "availablity":"Immadiate"
+}
+]

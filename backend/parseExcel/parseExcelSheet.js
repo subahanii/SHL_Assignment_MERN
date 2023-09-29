@@ -18,30 +18,30 @@ for(let project of xlData){
         pro["availablity"] = null
 
     if(project["Project.Technologies"]!==undefined)
-        pro["technologies"]= project["Project.Technologies"].split(",")
+        pro["technologies"]= project["Project.Technologies"].split(",").map(ele=>ele.toLowerCase().trim())
     else
         pro["technologies"]= null
 
 
     if(project["Technical_Skillset.Frontend"]!==undefined)
-        pro["frontend_skill"]= project["Technical_Skillset.Frontend"].split(",")
+        pro["frontend_skill"]= project["Technical_Skillset.Frontend"].split(",").map(ele=>ele.toLowerCase().trim())
     else
         pro["frontend_skill"]= null
 
 
     if(project["Technical_Skillset.Backend"]!==undefined)
-        pro["backend_skill"]= project["Technical_Skillset.Backend"].split(",")
+        pro["backend_skill"]= project["Technical_Skillset.Backend"].split(",").map(ele=>ele.toLowerCase().trim())
     else
         pro["backend_skill"]= null
 
 
     if(project["Technical_Skillset.Databases"]!==undefined)
-        pro["database_skill"]= project["Technical_Skillset.Databases"].split(",")
+        pro["database_skill"]= project["Technical_Skillset.Databases"].split(",").map(ele=>ele.toLowerCase().trim())
     else
         pro["database_skill"]=null
 
     if(project["Technical_Skillset.Infrastructre"]!==undefined)
-        pro["infrastructure_skill"]= project["Technical_Skillset.Infrastructre"].split(",")
+        pro["infrastructure_skill"]= project["Technical_Skillset.Infrastructre"].split(",").map(ele=>ele.toLowerCase().trim())
     else
     pro["infrastructure_skill"]= null
 

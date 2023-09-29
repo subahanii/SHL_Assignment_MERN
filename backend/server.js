@@ -19,6 +19,7 @@ let resp = null
 const add = async ()=>{
     await project.deleteMany({})// delete all data from table first ther insert
     resp = await project.insertMany(data)
+    console.log("sent")
 }
 add()
 console.log(resp)

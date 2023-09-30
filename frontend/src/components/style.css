@@ -1,0 +1,25 @@
+.submitButton{
+    margin-top:1rem !important ;
+}
+.searchField{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.horizantal1{
+    border-bottom: 1px solid rgba(5, 213, 255, 0.667) ;
+    padding: 5px;
+}
+.Form2 {
+    padding-top: 5px;
+}
+.text{
+    font-size: small;
+}
+
+.width-size{
+    width: 100% !important;
+}
+.textCenter{
+    text-align: center;
+}
